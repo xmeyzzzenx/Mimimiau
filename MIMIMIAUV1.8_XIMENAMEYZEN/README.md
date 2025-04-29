@@ -82,7 +82,7 @@ Debes ver una versión de Java 21 o superior.
 Puedes descargar el proyecto ejecutando:
 
 ```bash
-git clone https://github.com/xmeyzzzzenx/Mimimiau.git
+git clone https://github.com/xmeyzzzenx/Mimimiau.git
 ```
 
 Luego, navega al directorio del proyecto:
