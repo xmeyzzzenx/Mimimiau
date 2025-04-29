@@ -47,7 +47,7 @@ public class GatoMaineCoon extends Gato {
     public void dormir() {
         setEnergia(getEnergia() + 20);
         setHambre(getHambre() + 5);
-        setFelicidad(getFelicidad() + 5);
+        setFelicidad(getFelicidad() -5);
         validarEstados();
     }
 

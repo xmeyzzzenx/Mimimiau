@@ -47,7 +47,7 @@ public class GatoPersa extends Gato {
     public void dormir() {
         setEnergia(getEnergia() + 30);
         setHambre(getHambre() + 10);
-        setFelicidad(getFelicidad() + 5);
+        setFelicidad(getFelicidad() -5 );
         validarEstados();
     }
 
