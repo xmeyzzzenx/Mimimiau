@@ -28,7 +28,8 @@ MIMIMIAU_V1.8_XIMENA_MEYZEN/
 │   └── mysql-connector-j-8.0.33.jar     # Driver para conexión MySQL
 ├── files/                 # Archivos externos y persistencia de datos
 │   ├── mimimiau.sql       # Script de creación de la base de datos
-│   └── partidas.txt       # Historial de partidas guardadas (se crea si no existe)
+│   ├── partidas.txt       # Historial de partidas guardadas (se crea si no existe)
+│   └── Documentacion_XimenaMeyzen.pdf   # Documento PDF de documentación del proyecto
 ├── src/                   # Código fuente
 │   ├── basedatos/
 │   │   ├── ConexionBD.java
@@ -82,13 +83,13 @@ Debes ver una versión de Java 21 o superior.
 Puedes descargar el proyecto ejecutando:
 
 ```bash
-git clone https://github.com/xmeyzzzenx/Mimimiau.git
+git clone https://github.com/xmeyzzzenx/Mimimiauv1.8_XimenaMeyzen.git
 ```
 
 Luego, navega al directorio del proyecto:
 
 ```bash
-cd Mimimiau
+cd Mimimiauv1.8_XimenaMeyzen
 ```
 
 ---
@@ -98,7 +99,7 @@ cd Mimimiau
 Ubica el archivo `.jar` dentro de la carpeta `lib/` y ejecuta:
 
 ```bash
-java -jar lib/Mimimiau_v1.8_XimenaMeyzen.jar
+java -jar Mimimiauv1.8_XimenaMeyzen.jar
 ```
 
 ---
